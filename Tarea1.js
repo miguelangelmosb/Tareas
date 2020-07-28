@@ -21,4 +21,10 @@ const padre = {
   
   const arrayFinal = [padre, gato, yo]
   
-  console.log(arrayFinal)
+  arrayFinal.forEach(item =>
+    {
+      for(i in item)
+      {
+        console.log(`\n ${i}: ${item[i]}`)
+      }
+    })
