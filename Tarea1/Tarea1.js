@@ -25,6 +25,6 @@ const padre = {
     {
       for(i in item)
       {
-        console.log(`\n ${i}: ${item[i]}`)
+        console.log(`\n${i}: ${item[i]}`)
       }
     })
